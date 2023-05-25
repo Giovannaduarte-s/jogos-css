@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+--corFundo:#aecbff;
+--corprincipal:#a8c8f2;
+--corsecundaria:#4169E1;
+--corterciaria:#191921;
+}
+
+header{
+   background-image: url(ti.jpg);
+    height: 150px;
+    padding: auto; 
+    font-family: 'Open Sans', sans-serif;
+    text-align: center; 
+    margin:auto;
+    color: white;
+    font-size: xx-large;
+    border-radius: 40px;
+} 
+h1{
+    margin: auto;
+}
+
+body{
+font-family:'Open Sans', sans-serif;
+font-size: medium;
+color: black;
+margin: auto;
+background-color:var(--corFundo);
+background-image: url(ti.jpg);
+background-size: cover;
+}
+ div{
+    background-color: var(--corprincipal);
+    text-align: center;
+    box-shadow: 10px 10px 10px #500bef;
+    border-radius: 40px;
+    width: 80%;
+    margin: auto;
+}
+
+footer {
+background-color: var(--corprincipal);
+color: black;
+paddin:90px;
+}
+#intro-pag{
+text-align: center;
+text-indent: 20px;
+}
+img{
+    border-radius: 40px;
+    min-width: 600px;
+    max-width: 600px;
+    box-shadow: 4px 4px 7px greenyellow;
+}
+a{
+    text-decoration: none;
+}
+ 
+
+
+ 
+ 
+
+ 
