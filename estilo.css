@@ -1,67 +1,75 @@
+/* Importa a fonte 'Open Sans' do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-:root{
---corFundo:#aecbff;
---corprincipal:#a8c8f2;
---corsecundaria:#4169E1;
---corterciaria:#191921;
+/* Define variáveis de cores utilizando o seletor :root */
+:root {
+  --corFundo: #aecbff;        /* Cor de fundo principal */
+  --corprincipal: #a8c8f2;   /* Cor principal */
+  --corsecundaria: #4169E1;  /* Cor secundária */
+  --corterciaria: #191921;   /* Cor terciária */
 }
 
-header{
-   background-image: url(ti.jpg);
-    height: 150px;
-    padding: auto; 
-    font-family: 'Open Sans', sans-serif;
-    text-align: center; 
-    margin:auto;
-    color: white;
-    font-size: xx-large;
-    border-radius: 40px;
-} 
-h1{
-    margin: auto;
+/* Estilos para o cabeçalho (header) */
+header {
+  background-image: url(ti.jpg);  /* Imagem de fundo do cabeçalho */
+  height: 150px;                  /* Altura do cabeçalho */
+  padding: auto;                  /* Espaçamento interno automático */
+  font-family: 'Open Sans', sans-serif; /* Fonte do cabeçalho */
+  text-align: center;             /* Alinhamento do texto centralizado */
+  margin: auto;                   /* Margem automática */
+  color: white;                   /* Cor do texto */
+  font-size: xx-large;            /* Tamanho da fonte extra grande */
+  border-radius: 40px;            /* Raio do arredondamento das bordas */
 }
 
-body{
-font-family:'Open Sans', sans-serif;
-font-size: medium;
-color: black;
-margin: auto;
-background-color:var(--corFundo);
-background-image: url(ti.jpg);
-background-size: cover;
-}
- div{
-    background-color: var(--corprincipal);
-    text-align: center;
-    box-shadow: 10px 10px 10px #500bef;
-    border-radius: 40px;
-    width: 80%;
-    margin: auto;
+/* Estilos para o título h1 */
+h1 {
+  margin: auto;                   /* Margem automática */
 }
 
+/* Estilos para o corpo (body) */
+body {
+  font-family: 'Open Sans', sans-serif; /* Fonte do corpo */
+  font-size: medium;              /* Tamanho da fonte médio */
+  color: black;                   /* Cor do texto */
+  margin: auto;                   /* Margem automática */
+  background-color: var(--corFundo); /* Cor de fundo utilizando a variável --corFundo */
+  background-image: url(ti.jpg);  /* Imagem de fundo do corpo */
+  background-size: cover;         /* Redimensionar a imagem de fundo para cobrir todo o corpo */
+}
+
+/* Estilos para a div */
+div {
+  background-color: var(--corprincipal); /* Cor de fundo utilizando a variável --corprincipal */
+  text-align: center;             /* Alinhamento do texto centralizado */
+  box-shadow: 10px 10px 10px #500bef;  /* Sombra da caixa com deslocamentos horizontal e vertical */
+  border-radius: 40px;            /* Raio do arredondamento das bordas */
+  width: 80%;                     /* Largura da div */
+  margin: auto;                   /* Margem automática */
+}
+
+/* Estilos para o rodapé (footer) */
 footer {
-background-color: var(--corprincipal);
-color: black;
-paddin:90px;
+  background-color: var(--corprincipal); /* Cor de fundo utilizando a variável --corprincipal */
+  color: black;                   /* Cor do texto */
+  padding: 90px;                  /* Preenchimento interno */
 }
-#intro-pag{
-text-align: center;
-text-indent: 20px;
-}
-img{
-    border-radius: 40px;
-    min-width: 600px;
-    max-width: 600px;
-    box-shadow: 4px 4px 7px greenyellow;
-}
-a{
-    text-decoration: none;
-}
- 
 
+/* Estilos para o elemento com o id 'intro-pag' */
+#intro-pag {
+  text-align: center;             /* Alinhamento do texto centralizado */
+  text-indent: 20px;              /* Recuo do texto na primeira linha */
+}
 
- 
- 
+/* Estilos para imagens */
+img {
+  border-radius: 40px;            /* Raio do arredondamento das bordas da imagem */
+  min-width: 600px;               /* Largura mínima da imagem */
+  max-width: 600px;               /* Largura máxima da imagem */
+  box-shadow: 4px 4px 7px greenyellow; /* Sombra da imagem com deslocamentos horizontal e vertical */
+}
 
- 
+/* Estilos para links */
+a {
+  text-decoration: none;         /* Remover decoração de texto sublinhado para links */
+}
